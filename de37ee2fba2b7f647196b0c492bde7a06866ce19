@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_35d8a3ef",
+        "filename": "fsck_msdos.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-11-13T20:44:18Z",
+      "side": 1,
+      "message": "Could also do this with an extern like is done in the sdcard commit.",
+      "revId": "de37ee2fba2b7f647196b0c492bde7a06866ce19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
