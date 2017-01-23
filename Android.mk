@@ -10,7 +10,6 @@ LOCAL_CFLAGS := $(common_cflags)
 LOCAL_C_INCLUDES := external/fsck_msdos/
 LOCAL_MODULE := libfsck_msdos
 LOCAL_MODULE_TAGS := optional
-LOCAL_SDCLANG := false
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
@@ -20,5 +19,4 @@ LOCAL_C_INCLUDES := external/fsck_msdos/
 LOCAL_MODULE := fsck_msdos
 LOCAL_MODULE_TAGS :=
 LOCAL_STATIC_LIBRARIES := libfsck_msdos liblog
-LOCAL_SDCLANG := false
 include $(BUILD_EXECUTABLE)
